@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Gallery</title>
+    <link rel="stylesheet" href="Filter Gallery.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <h1 class="intro">Filter Gallery</h1> <hr>
+    <nav>
+        <button onclick="allVisible()">All</button>
+        <button onclick="compVisible()">Computer</button>
+        <button onclick="peopleVisible()">People</button>
+        <button onclick="natureVisible()">Nature</button>
+        <button onclick="sitesVisible()">Sites</button>
+        <div id="marker"></div>
+    </nav>
+    <main>
+        <div class="images">
+            <a target="_blank" class="image visible computer" href="Images/comp1.jpg"><img src="Images/comp1.jpg" alt="image"></a>
+            <a target="_blank" class="image visible computer" href="Images/comp2.jpg"><img src="Images/comp2.jpg" alt="image"></a>
+            <a target="_blank" class="image visible people" href="Images/people1.png"><img src="Images/people1.png" alt="image"></a>
+            <a target="_blank" class="image visible people" href="Images/people2.jpg"><img src="Images/people2.jpg" alt="image"></a>
+            <a target="_blank" class="image visible people" href="Images/people3.jpg"><img src="Images/people3.jpg" alt="image"></a>
+            <a target="_blank" class="image visible people" href="Images/people4.png"><img src="Images/people4.png" alt="image"></a>
+            <a target="_blank" class="image visible people" href="Images/people5.png"><img src="Images/people5.png" alt="image"></a>
+            <a target="_blank" class="image visible nature" href="Images/nature1.jpg"><img src="Images/nature1.jpg" alt="image"></a>
+            <a target="_blank" class="image visible nature" href="Images/nature2.jpg"><img src="Images/nature2.jpg" alt="image"></a>
+            <a target="_blank" class="image visible nature" href="Images/nature3.jpg"><img src="Images/nature3.jpg" alt="image"></a>
+            <a target="_blank" class="image visible nature" href="Images/nature4.jpg"><img src="Images/nature4.jpg" alt="image"></a>
+            <a target="_blank" class="image visible sites" href="Images/sites1.png"><img src="Images/sites1.png" alt="image"></a>
+            <a target="_blank" class="image visible sites" href="Images/sites2.jpg"><img src="Images/sites2.jpg" alt="image"></a>
+            <a target="_blank" class="image visible sites" href="Images/sites3.jpg"><img src="Images/sites3.jpg" alt="image"></a>
+            <a target="_blank" class="image visible sites" href="Images/sites4.jpg"><img src="Images/sites4.jpg" alt="image"></a>
+        </div>
+    </main>
+    <script src="Filter Gallery.js"></script>
+    <script src="Canvas Style- extra markup.js"></script>
+</body>
+</html>
