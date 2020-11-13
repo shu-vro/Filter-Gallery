@@ -38,6 +38,7 @@ body {
     opacity: 0;
     z-index: -100;
     margin-bottom: 15px;
+    overflow: hidden;
     transition: .4s;
 }
 
@@ -51,17 +52,21 @@ img {
 
 .image.visible {
     position: relative;
-    width: 250px;
-    height: 150px;
+    width: 280px;
+    height: 180px;
     opacity: 1;
     z-index: 100;
 }
 
 .image.visible img {
     position: relative;
-    width: 250px;
-    height: 150px;
+    width: 280px;
+    height: 180px;
     transform: scale(1);
+}
+
+.image.visible:hover img{
+    transform: scale(1.2);
 }
 
 
